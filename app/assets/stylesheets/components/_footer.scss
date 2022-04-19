@@ -1,0 +1,30 @@
+.footer {
+  background: $black;
+  color: white;
+  height: 20vh;
+  padding: 5px 20px 5px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer img {
+  height: 4vh;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  font-family: $headers-font;
+  font-weight: 100;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.link:hover {
+  color: $blue;
+}
+
+h2 {
+  font-weight: 100;
+  font-size: 30px;
+}
