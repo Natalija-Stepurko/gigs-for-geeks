@@ -13,7 +13,23 @@
 @import "components/navbar";
 @import "components/footer";
 @import "components/banner";
+@import "components/button";
+@import "components/button_blue";
+@import "components/button_glow";
 
 body {
   color: $black;
+  font-weight: 100;
+
+  a {
+    text-decoration: none;
+    font-family: $headers-font;
+    font-weight: 100;
+    color: white;
+  }
+
+  a:hover {
+    font-weight: 300;
+    color: inherit;
+  }
 }

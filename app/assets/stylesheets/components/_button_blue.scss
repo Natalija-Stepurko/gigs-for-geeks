@@ -1,0 +1,65 @@
+/* From uiverse.io by @alexmaracinaru */
+.cta-blue {
+  position: relative;
+  margin: auto;
+  padding: 12px 18px;
+  transition: all 0.2s ease;
+  border: none;
+  background: none;
+ }
+
+ .cta-blue:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  border-radius: 50px;
+  background: $gray;
+  width: 45px;
+  height: 45px;
+  transition: all 0.3s ease;
+ }
+
+ .cta-blue span {
+  position: relative;
+  font-family: $headers-font;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 0.05em;
+  color: white;
+
+  a {
+    font-weight: 300;
+  }
+
+  a:hover {
+    color: white;
+  }
+ }
+
+ .cta-blue svg {
+  position: relative;
+  top: 0;
+  margin-left: 10px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: white;
+  stroke-width: 1;
+  transform: translateX(-5px);
+  transition: all 0.3s ease;
+ }
+
+ .cta-blue:hover:before {
+  width: 100%;
+  background: $gray;
+ }
+
+ .cta-blue:hover svg {
+  transform: translateX(0);
+ }
+
+ .cta-blue:active {
+  transform: scale(0.95);
+ }

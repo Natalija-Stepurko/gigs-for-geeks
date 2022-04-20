@@ -1,17 +1,17 @@
 .banner {
   background-image: linear-gradient(rgba(0,0,0,0.8) 0%,
   rgba(0,0,0,0.2) 50%),
-  url('splashes.png');
+  url('splashes_small.png');
   background-size: cover;
   background-position: center;
   height: 100vh;
   width: 100vw;
   background-color: $black;
-  color: white
-
-
-
-}
+  color: white;
+  // position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 
   h1 {
     padding-top: 20vh;
@@ -19,3 +19,23 @@
     line-height: 2;
     font-weight: 100;
   }
+
+  .buttons {
+    margin-left: 10vw;
+    margin-top: 7vh;
+  }
+
+  .cta-blue {
+    margin-right: 25px;
+    margin-bottom: 7vh;
+  }
+
+  .cta {
+    margin-bottom: 7vh;
+  }
+
+  .feedback {
+    margin-left: 10vw;
+  }
+
+}
