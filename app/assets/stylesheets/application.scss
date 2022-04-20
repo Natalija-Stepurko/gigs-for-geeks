@@ -26,10 +26,17 @@ body {
     font-family: $headers-font;
     font-weight: 100;
     color: white;
+    /* font-size: calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum viewport width]) / ([maximum viewport width] - [minimum viewport width]))); */
+    font-size: calc(12px + (18 - 12) * ((100vw - 300px) / (1920 - 300)));
   }
 
   a:hover {
     font-weight: 300;
     color: inherit;
+  }
+
+  h1 {
+    /* font-size: calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum viewport width]) / ([maximum viewport width] - [minimum viewport width]))); */
+    font-size: calc(25px + (45 - 25) * ((100vw - 300px) / (1920 - 300)));
   }
 }

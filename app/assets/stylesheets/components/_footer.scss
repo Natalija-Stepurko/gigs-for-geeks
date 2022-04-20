@@ -35,6 +35,12 @@
     padding: 10px 8px 0px 8px;
   }
 
+  .links {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
 }
 
 .footer img {

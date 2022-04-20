@@ -4,7 +4,7 @@
   url('splashes_small.png');
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  min-height: 90vh;
   width: 100vw;
   background-color: $black;
   color: white;
@@ -14,10 +14,12 @@
   justify-content: flex-start;
 
   h1 {
-    padding-top: 20vh;
+    padding-top: 20vmin;
     padding-left: 10vw;
+    padding-right: 4vw;
     line-height: 2;
     font-weight: 100;
+
   }
 
   .buttons {
