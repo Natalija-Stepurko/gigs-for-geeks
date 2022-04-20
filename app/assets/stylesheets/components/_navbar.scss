@@ -2,8 +2,8 @@
   justify-content: space-between;
   background: $black;
   color: white;
-  height: 12vh;
-  padding: 5px 20px 5px 20px;
+  height: 10vh;
+  padding: 1vh 3vh 1vh 3vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -15,17 +15,12 @@
 }
 
 .navbar-gfg .navbar-brand img {
-  // width: 100px;
-  height: 8vh;
+  height: 7vh;
 }
 
-// .link {
-//   text-decoration: none;
-//   color: white;
-//   font-family: $headers-font;
-//   font-weight: 100;
-// }
 
-// .link:hover {
-//   color: $blue;
-// }
+// padding: 25px 50px 75px 100px;
+// top padding is 25px
+// right padding is 50px
+// bottom padding is 75px
+// left padding is 100px

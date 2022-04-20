@@ -17,9 +17,10 @@
   position: relative;
   transition: all 0.3s;
   max-width: max-content;
+  margin-bottom: 20px;
 
   font-family: $headers-font;
-  font-size: 18px;
+  // font-size: 18px;
   font-weight: 300;
 
   a {
