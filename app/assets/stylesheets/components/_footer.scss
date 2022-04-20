@@ -1,37 +1,44 @@
 .footer {
-  background: $blue;
+  background: $black;
   color: white;
-  height: 20vh;
+  height: 200px;
   padding: 20px 20px 10px 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-evenly;
+  // position: relative;
 
-
-  .logo {
-    padding-top: 20px;
-    padding-bottom: 10px;
+  p {
+    font-size: 10px;
+    font-weight: 300;
+    font-style: italic;
+    font-family: $headers-font;
+    margin: 0;
   }
+
+  h2 {
+    font-weight: 100;
+    font-size: 30px;
+    padding-bottom: 10px;
+    margin: 0px;
+    // position: absolute;
+    // left: 100px;
+    // top: 20px;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+    font-family: $headers-font;
+    font-weight: 100;
+    padding: 10px 8px 0px 8px;
+  }
+
 }
 
 .footer img {
-  height: 4vh;
-}
-
-.link {
-  text-decoration: none;
-  color: white;
+  height: 50px;
   font-family: $headers-font;
-  font-weight: 100;
-  padding-left: 8px;
-  padding-right: 8px;
-}
-
-.link:hover {
-  color: $blue;
-}
-
-h2 {
-  font-weight: 100;
-  font-size: 30px;
+  padding: 10px 0px 10px 0px;
 }
