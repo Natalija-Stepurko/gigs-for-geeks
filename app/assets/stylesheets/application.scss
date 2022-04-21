@@ -10,6 +10,7 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+@import "pages/home";
 @import "components/navbar";
 @import "components/footer";
 @import "components/banner";
@@ -18,7 +19,8 @@
 @import "components/button_glow";
 
 body {
-  color: $black;
+  background-color: $black;
+  color: white;
   font-weight: 100;
 
   a {
@@ -38,5 +40,17 @@ body {
   h1 {
     /* font-size: calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum viewport width]) / ([maximum viewport width] - [minimum viewport width]))); */
     font-size: calc(25px + (45 - 25) * ((100vw - 300px) / (1920 - 300)));
+    font-weight: 100;
+  }
+
+  h2 {
+    /* font-size: calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum viewport width]) / ([maximum viewport width] - [minimum viewport width]))); */
+    font-size: calc(20px + (30 - 20) * ((100vw - 300px) / (1920 - 300)));
+    font-weight: 100;
+  }
+
+  p {
+        /* font-size: calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum viewport width]) / ([maximum viewport width] - [minimum viewport width]))); */
+        font-size: calc(12px + (18 - 12) * ((100vw - 300px) / (1920 - 300)));
   }
 }
